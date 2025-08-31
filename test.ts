@@ -8,7 +8,7 @@ function node1(state: State) {
 
 function node2(state: State) {
   return {
-    next: node4,
+    next: node3,
     newState: {
       response: state.response + " node2"
     }

@@ -83,3 +83,14 @@ export function tool<
   }
 }
 
+const weather = tool(({ city }) => {
+  return "its 35 degree C";
+}, {
+  name: "weather",
+  description: "gives you current weather",
+  schema: z.object({
+    city: z.string().describe("name of the city you want weather for")
+  })
+});
+
+console.log(weather.describe);
