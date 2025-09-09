@@ -1,5 +1,5 @@
 {
-  "name": "hypergraph",
+  "name": "hypergraph-js",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
